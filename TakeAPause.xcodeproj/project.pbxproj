@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842196B90B5D39230029FD79 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 842196B80B5D39230029FD79 /* TODO */; };
+		842196C40B5D3A8C0029FD79 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 842196C30B5D3A8C0029FD79 /* ChangeLog */; };
+		8433E9E80B654C5C003EE547 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433E9D40B654C5C003EE547 /* Sparkle.framework */; };
+		8433E9EF0B654D1E003EE547 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8433E9D40B654C5C003EE547 /* Sparkle.framework */; };
+		8433F4360B657AE4003EE547 /* preferences.general.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8433F4350B657AE4003EE547 /* preferences.general.tiff */; };
+		8433F43A0B657B1B003EE547 /* preferences.updates.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8433F4390B657B1B003EE547 /* preferences.updates.tiff */; };
+		849998560B5A8E4E00FA6F53 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849998550B5A8E4E00FA6F53 /* PreferencesController.m */; };
+		8499A2570B5AE13100FA6F53 /* TAPIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8499A2560B5AE13100FA6F53 /* TAPIcon.icns */; };
+		84D128AD0B67BECF00F846BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1282E0B67BECF00F846BE /* Foundation.framework */; };
+		84D6BB260B7A0D1100576443 /* glgrab.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D6BB250B7A0D1100576443 /* glgrab.c */; };
+		84D6BB2D0B7A0D4100576443 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D6BB2C0B7A0D4100576443 /* OpenGL.framework */; };
+		84D6BB6A0B7A19B800576443 /* TAPView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84D6BB680B7A19B800576443 /* TAPView.h */; };
+		84D6BB6B0B7A19B800576443 /* TAPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D6BB690B7A19B800576443 /* TAPView.m */; };
+		84D6BBC60B7A20D800576443 /* preferences.appearance.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84D6BBC50B7A20D800576443 /* preferences.appearance.tiff */; };
+		84EA67F30B5942460036C2FE /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA67F20B5942460036C2FE /* AppController.m */; };
+		84EA67FA0B5942C50036C2FE /* TAPStatusItemIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA67F90B5942C50036C2FE /* TAPStatusItemIcon.png */; };
+		84EA691F0B595D180036C2FE /* TAPWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA691E0B595D180036C2FE /* TAPWindowController.m */; };
+		84EA6A580B5979D00036C2FE /* CTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA6A570B5979D00036C2FE /* CTGradient.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8433E9ED0B654CF2003EE547 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8433E9EF0B654D1E003EE547 /* Sparkle.framework in CopyFiles */,
+				84D6BB6A0B7A19B800576443 /* TAPView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		842196B80B5D39230029FD79 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		842196C30B5D3A8C0029FD79 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		8433E9D40B654C5C003EE547 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		8433F4350B657AE4003EE547 /* preferences.general.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = preferences.general.tiff; sourceTree = "<group>"; };
+		8433F4390B657B1B003EE547 /* preferences.updates.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = preferences.updates.tiff; sourceTree = "<group>"; };
+		849998540B5A8E4E00FA6F53 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		849998550B5A8E4E00FA6F53 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		8499A2560B5AE13100FA6F53 /* TAPIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TAPIcon.icns; sourceTree = "<group>"; };
+		84D1282E0B67BECF00F846BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		84D6BB250B7A0D1100576443 /* glgrab.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = glgrab.c; sourceTree = "<group>"; };
+		84D6BB2C0B7A0D4100576443 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		84D6BB680B7A19B800576443 /* TAPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPView.h; sourceTree = "<group>"; };
+		84D6BB690B7A19B800576443 /* TAPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPView.m; sourceTree = "<group>"; };
+		84D6BBC50B7A20D800576443 /* preferences.appearance.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = preferences.appearance.tiff; sourceTree = "<group>"; };
+		84EA67F10B5942460036C2FE /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		84EA67F20B5942460036C2FE /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		84EA67F90B5942C50036C2FE /* TAPStatusItemIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TAPStatusItemIcon.png; sourceTree = "<group>"; };
+		84EA691D0B595D180036C2FE /* TAPWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TAPWindowController.h; sourceTree = "<group>"; };
+		84EA691E0B595D180036C2FE /* TAPWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TAPWindowController.m; sourceTree = "<group>"; };
+		84EA6A560B5979D00036C2FE /* CTGradient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CTGradient.h; sourceTree = "<group>"; };
+		84EA6A570B5979D00036C2FE /* CTGradient.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CTGradient.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TakeAPause.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeAPause.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8433E9E80B654C5C003EE547 /* Sparkle.framework in Frameworks */,
+				84D128AD0B67BECF00F846BE /* Foundation.framework in Frameworks */,
+				84D6BB2D0B7A0D4100576443 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D1282E0B67BECF00F846BE /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				8433E9D40B654C5C003EE547 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TakeAPause.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GAP */ = {
+			isa = PBXGroup;
+			children = (
+				84D6BB2C0B7A0D4100576443 /* OpenGL.framework */,
+				84D6BB250B7A0D1100576443 /* glgrab.c */,
+				842196B80B5D39230029FD79 /* TODO */,
+				842196C30B5D3A8C0029FD79 /* ChangeLog */,
+				29B97315FDCFA39411CA2CEA /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GAP;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84EA6A560B5979D00036C2FE /* CTGradient.h */,
+				84EA6A570B5979D00036C2FE /* CTGradient.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				84EA67F10B5942460036C2FE /* AppController.h */,
+				84EA67F20B5942460036C2FE /* AppController.m */,
+				84EA67F90B5942C50036C2FE /* TAPStatusItemIcon.png */,
+				84EA691D0B595D180036C2FE /* TAPWindowController.h */,
+				84EA691E0B595D180036C2FE /* TAPWindowController.m */,
+				849998540B5A8E4E00FA6F53 /* PreferencesController.h */,
+				849998550B5A8E4E00FA6F53 /* PreferencesController.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8433F4390B657B1B003EE547 /* preferences.updates.tiff */,
+				8433F4350B657AE4003EE547 /* preferences.general.tiff */,
+				84D6BBC50B7A20D800576443 /* preferences.appearance.tiff */,
+				8499A2560B5AE13100FA6F53 /* TAPIcon.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				84D6BB680B7A19B800576443 /* TAPView.h */,
+				84D6BB690B7A19B800576443 /* TAPView.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TakeAPause */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TakeAPause" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				8433E9ED0B654CF2003EE547 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeAPause;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GAP;
+			productReference = 8D1107320486CEB800E47090 /* TakeAPause.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TakeAPause" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GAP */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TakeAPause */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				84EA67FA0B5942C50036C2FE /* TAPStatusItemIcon.png in Resources */,
+				8499A2570B5AE13100FA6F53 /* TAPIcon.icns in Resources */,
+				842196B90B5D39230029FD79 /* TODO in Resources */,
+				842196C40B5D3A8C0029FD79 /* ChangeLog in Resources */,
+				8433F4360B657AE4003EE547 /* preferences.general.tiff in Resources */,
+				8433F43A0B657B1B003EE547 /* preferences.updates.tiff in Resources */,
+				84D6BBC60B7A20D800576443 /* preferences.appearance.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				84EA67F30B5942460036C2FE /* AppController.m in Sources */,
+				84EA691F0B595D180036C2FE /* TAPWindowController.m in Sources */,
+				84EA6A580B5979D00036C2FE /* CTGradient.m in Sources */,
+				849998560B5A8E4E00FA6F53 /* PreferencesController.m in Sources */,
+				84D6BB260B7A0D1100576443 /* glgrab.c in Sources */,
+				84D6BB6B0B7A19B800576443 /* TAPView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TakeAPause;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TakeAPause;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TakeAPause" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TakeAPause" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

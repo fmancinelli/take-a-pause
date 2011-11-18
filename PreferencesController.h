@@ -1,0 +1,43 @@
+/* Take A Pause!
+ * Copyright (C) 2007, Fabio Mancinelli <fm@fabiomancinelli.org>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+#import <Cocoa/Cocoa.h>
+#import "AppController.h"
+
+@class AppController;
+
+extern NSString *TAPWorkIntervalKey;
+extern NSString *TAPPauseIntervalKey;
+extern NSString *TAPPostponeEnabledKey;
+extern NSString *TAPPostponeIntervalKey;
+extern NSString *TAPGiveUpEnabledKey;
+extern NSString *TAPRestartIfIdleKey;
+extern NSString *TAPIdleIntervalKey;
+extern NSString *TAPMetalGradientLookKey;
+
+@interface PreferencesController : NSWindowController
+{
+    NSUserDefaults *standardUserDefaults;
+    IBOutlet NSTextField *workIntervalTextField;
+    IBOutlet NSTabView *tabView;
+    IBOutlet AppController *appController;
+    
+    NSToolbar *toolbar;
+    NSMutableDictionary *itemsList;
+}
+@end

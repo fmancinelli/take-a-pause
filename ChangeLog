@@ -1,0 +1,48 @@
+14 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Initial release version 1.0
+    
+
+15 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Fixed a bug in Preferences panel behavior (PreferencesController.m)
+ * Added a TODO
+ * Added a ChangeLog
+
+
+17 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Added a "Give up the pause" functionality
+ * Changed the menu structure and behavior to reflect the one found in standard extra items (e.g, Airport and Bluetooth)
+ 
+
+19 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Restyled the preferences panel
+ * Added a "Restart if idle" functionality
+ * Version 1.1
+
+
+20 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Fixed a serious bug
+ * Version 1.2
+ 
+ 
+22 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Code refactorings, removed a lot of code by using the binding mechanism
+ * Used the CGSecondsSinceLastEvent private function to calculate idle time
+
+
+23 January 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * Added Sparkle support
+ * Added a Mail/iTunes-style preferences panel
+
+ 
+8 February 2007  Fabio Mancinelli <fm@fabiomancinelli.org>
+----------------------------------------------------------
+ * The pause window now show a current screenshot as the background
+ * Added an "appearance" section to the preferences panel
+ 

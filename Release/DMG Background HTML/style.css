@@ -1,0 +1,126 @@
+/******************************************************
+ * Container
+ ******************************************************/
+body {
+  background: #FFFFFF url(images/top-grad.png) repeat-x
+}
+
+#container {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #626262;
+}
+
+/******************************************************
+ * Header
+ ******************************************************/
+#header {
+	/*border-top: 1px solid #C8C8C8;*/
+	padding-top: 10px;
+	padding-bottom: 15px;
+	clear: both;
+	text-align: center;
+}
+
+#header h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: #005BB1;
+}
+
+#header h2 {
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: -20px;
+	color: #626262;
+}
+
+#body {
+	text-align: center;
+}
+
+/******************************************************
+ * Content
+ ******************************************************/
+#content {
+	border-top: 1px solid #C8C8C8;
+}
+
+#content h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #005BB1;
+	border-bottom: 1px solid #E8E8E8;
+}
+		
+#content h2 {
+	color: #005BB1;
+	font-size: 18px;
+	font-family: sans-serif;
+	border-bottom: 1px solid #E8E8E8;
+}
+		
+#content h3 {
+	color: #005BB1;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+		
+#content h4 {
+	color: #005BB1;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+		
+#content h5 {
+	color: #005BB1;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+		
+#content a {
+	color:#005BB1;
+	text-decoration: none;
+}
+
+#content a:hover {
+	color:#005BB1;
+	text-decoration: underline;
+}
+
+td {
+	vertical-align: top;
+}
+
+/******************************************************
+ * Footer
+ ******************************************************/
+#footer {
+	border-top: 1px solid #C8C8C8;
+	clear: both;
+	font-size: 14px;
+	line-height: 1.3em;
+	padding-top: 10px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#footer a {
+	color:#005BB1;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color:#005BB1;
+	text-decoration: underline;
+}
+
+.framed {
+	border: 1px solid #E8E8E8;
+}

@@ -1,0 +1,58 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                about = id; 
+                enable = id; 
+                preferences = id; 
+                quit = id; 
+                startPauseWithScreenshot = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutPanel = NSPanel; 
+                enableMenuItem = NSMenuItem; 
+                menu = NSMenu; 
+                minutesToNextPauseMenuItem = NSMenuItem; 
+                preferencesController = PreferencesController; 
+                tapWindowController = TAPWindowController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                appController = AppController; 
+                tabView = NSTabView; 
+                workIntervalTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = TAPView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {giveUp = id; postpone = id; showWindow = id; }; 
+            CLASS = TAPWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delegate = id; 
+                giveUpButton = NSButton; 
+                postponeButton = NSButton; 
+                preferencesController = PreferencesController; 
+                tapMessageView = NSView; 
+                timerTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
